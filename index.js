@@ -1,4 +1,4 @@
-// Usage node test.js deploy. To deploy de contract.
+// Usage node test.js deploy true. To deploy de contract.
 // Usage node test.js add contractAddress. To generate tx
 // Usage node test.js add contractAddress true. To create and send
 // Usage node test.js get contractAddress. To call get.
