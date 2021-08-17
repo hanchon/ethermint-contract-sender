@@ -73,9 +73,9 @@ const deploy = async (privKey, address) => {
 const add = async (privKey, address, contractAddress, send) => {
     const incrementer = new web3.eth.Contract(abi);
     const encoded = incrementer.methods.add().encodeABI();
-    console.log(
-       `Calling the add function in contract at address ${contractAddress}`
-    );
+    // console.log(
+    //    `Calling the add function in contract at address ${contractAddress}`
+    // );
     const createTransaction = await web3.eth.accounts.signTransaction(
        {
           from: address,
